@@ -1,0 +1,35 @@
+.productTable {
+	font-family: 'Poppins', sans-serif;
+
+	.searchInput {
+		float: right;
+		margin-left: 12px;
+	}
+	.addButton {
+		text-transform: none;
+		float: right;
+		padding: 7px 24px;
+		border-radius: 8px;
+	}
+	.table {
+		table-layout: auto;
+		th {
+			font-weight: 600;
+		}
+	}
+}
+.productForm {
+	font-family: 'Poppins', sans-serif;
+	width: 600px;
+	margin: auto;
+	padding: 16px;
+	.inputFields {
+		margin-top: 12px;
+	}
+	.submitButton {
+		text-transform: none;
+		margin: 12px;
+		padding: 7px 24px;
+		border-radius: 8px;
+	}
+}
