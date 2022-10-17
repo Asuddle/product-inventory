@@ -46,10 +46,13 @@ function FormComponent() {
 		navigate('/');
 	};
 	const handleSubmit = () => {
-		dispatch(
-			addProduct({ ...form, ...{ createdDate: new Date().toDateString() } }),
-		);
-		navigate('/');
+		const { name, description, price } = form;
+		if (name !== '' && description !== '' && price !== '') {
+			dispatch(
+				addProduct({ ...form, ...{ createdDate: new Date().toDateString() } }),
+			);
+			navigate('/');
+		}
 	};
 
 	return (
