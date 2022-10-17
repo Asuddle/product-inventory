@@ -7,8 +7,8 @@ import {
 	waitFor,
 } from './test-utils';
 
-import FormComponent from '../Form';
-import TableComponent from '../Table';
+import FormComponent from '../modules/product/Form';
+import TableComponent from '../modules/product/Table';
 
 const RouterComponent = () => {
 	return useRoutes([

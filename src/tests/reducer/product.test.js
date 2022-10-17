@@ -1,9 +1,6 @@
-import reducer, {
-	addProduct,
-	searchProduct,
-} from '../../../../reducer/product';
+import reducer, { addProduct, searchProduct } from '../../reducer/product';
 
-import { productData } from '../../../../data';
+import { productData } from '../../data';
 
 describe('Redux Actions Testing', () => {
 	const undef = undefined;

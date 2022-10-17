@@ -1,6 +1,6 @@
 import { Provider } from 'react-redux';
 import React from 'react';
-import { store as reduxStore } from '../../../store';
+import { store as reduxStore } from '../store';
 import { render } from '@testing-library/react';
 
 function renderWithProviders(
